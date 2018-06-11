@@ -1,0 +1,22 @@
+.cards__card {
+  width: 20%;
+  height: 40%;
+}
+
+@media only screen and (max-width: 1080px) {
+    .cards__card {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cards__card {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .cards__card {
+        width: 100%;
+    }
+}
